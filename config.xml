@@ -2,10 +2,10 @@
 <widget id="np.com.oripari.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>oriPari</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Find WHats Around You
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="#" href="#">
+        Surya Technologies
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
@@ -50,6 +50,12 @@
         <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     </platform>
+    <platform name="browser">
+    <preference name="SplashScreen" value="www/res/screen/android/drawable-land-xxxhdpi-screen.png" /> <!-- defaults to "/img/logo.png" -->
+    <preference name="SplashScreenDelay" value="3000" /> <!-- defaults to "3000" -->
+    
+</platform>
+
     <!-- <platform name="ios">
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
@@ -114,4 +120,8 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <preference name="SplashScreenDelay" value="10000" />
+    
+
+
 </widget>
